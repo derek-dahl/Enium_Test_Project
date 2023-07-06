@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/derek.dahl/Projects/Enium/Test/Test/Test.csproj": {}
+  },
+  "projects": {
+    "/Users/derek.dahl/Projects/Enium/Enium_Solar_Services_Common/src/Common/Core/Common.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/derek.dahl/Projects/Enium/Enium_Solar_Services_Common/src/Common/Core/Common.Core.csproj",
+        "projectName": "Common.Core",
+        "projectPath": "/Users/derek.dahl/Projects/Enium/Enium_Solar_Services_Common/src/Common/Core/Common.Core.csproj",
+        "packagesPath": "/Users/derek.dahl/.nuget/packages/",
+        "outputPath": "/Users/derek.dahl/Projects/Enium/Enium_Solar_Services_Common/src/Common/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/derek.dahl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.0.71, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.3.3, )"
+            },
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.1.13, )"
+            },
+            "AWSSDK.SecretsManager": {
+              "target": "Package",
+              "version": "[3.7.2.105, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.2.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.NETCore.Targets": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Nager.Date": {
+              "target": "Package",
+              "version": "[1.29.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.IO.FileSystem.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.14, )"
+            },
+            "System.Runtime.Handles": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.InteropServices": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/derek.dahl/Projects/Enium/Test/Test/Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/derek.dahl/Projects/Enium/Test/Test/Test.csproj",
+        "projectName": "Test",
+        "projectPath": "/Users/derek.dahl/Projects/Enium/Test/Test/Test.csproj",
+        "packagesPath": "/Users/derek.dahl/.nuget/packages/",
+        "outputPath": "/Users/derek.dahl/Projects/Enium/Test/Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/derek.dahl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/derek.dahl/Projects/Enium/Enium_Solar_Services_Common/src/Common/Core/Common.Core.csproj": {
+                "projectPath": "/Users/derek.dahl/Projects/Enium/Enium_Solar_Services_Common/src/Common/Core/Common.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
